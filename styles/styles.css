@@ -43,7 +43,7 @@ header a{
 }
 
 header a:hover{
-    color: orangered;
+    color: #dc670f;
 }
 
 .header-text{
@@ -74,13 +74,13 @@ height: 100vh;
     border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    background-color: orangered;
+    background-color: #dc670f;
     border: 1px solid white;
 
   }
   
   .btn-outlined:hover {
-    background-color: orangered;
+    background-color: #dc670f;
     border: none;
 
   }
@@ -128,14 +128,42 @@ height: 100vh;
     display: block;
     width: 40%; /* or 100% if you want full width */
     height: 3px;
-    background-color: orangered;
+    background-color: #dc670f;
     margin-top: 6px;
     border-radius: 2px;
   }
 
+  .shoe-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+  }
 
+  .section-title{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0;
+    color: #eeeeee;
+    background-color: #dc670f;
+    width: 24rem;
+    padding: 10px 0;
+    border-radius: 20px;
+  }
 
-/* 
+.shoe-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .brand-name{
+    color: #dc670f;
+  }
   .shoe-card {
     width: 300px;
     border-radius: 12px;
@@ -169,14 +197,14 @@ height: 100vh;
   
   .price {
     font-weight: bold;
-    color: #007BFF;
+    color: #dc670f;
     font-size: 18px;
     display: block;
     margin-bottom: 10px;
   }
   
   .shoe-info button {
-    background-color: #007BFF;
+    background-color: #dc670f;
     color: white;
     border: none;
     padding: 10px 16px;
@@ -186,7 +214,14 @@ height: 100vh;
   }
   
   .shoe-info button:hover {
-    background-color: #0056b3;
+    background-color: #dc670f;
   }
+
+  footer{
+    background-color: #dc670f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+
   
-   */
