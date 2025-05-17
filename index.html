@@ -7,7 +7,15 @@
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <nav>
+   
+
+<div class="mobile-message">
+  <h2>Not available for mobile and tablet devices</h2>
+</div>
+
+    <div class="main-content">
+            <!-- All your current page content goes inside here -->
+             <nav>
       <div class="logo">
         <a href="#home">
           <img src="./images/posh steps ig profile-1@1x_1.png" alt="Logo" />
@@ -21,174 +29,176 @@
       </ul>
     </nav>
 
-    <!-- Home -->
-    <header id="home">
-      <div>
-        <div class="header-text">
-          <h1>
-            Welcome to <span class="brand-name">Posh Steps</span> , <br />
-            stride with confidence
-          </h1>
+      <!-- Home -->
+      <header id="home">
+        <div>
+          <div class="header-text">
+            <h1>
+              Welcome to <span class="brand-name">Posh Steps</span> , <br />
+              stride with confidence
+            </h1>
+            <a
+              href="https://www.instagram.com/posh_steps?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            >
+              <a href="#shop-now">
+                <button class="btn-outlined">Shop Now</button>
+              </a>
+            </a>
+          </div>
+        </div>
+      </header>
+    
+      <!-- About Us -->
+      <section class="shoe-section" id="about">
+        <div class="section-title">
+          <h2>About Posh Steps</h2>
+        </div>
+        <div class="shoe-description">
+          <div class="description-img">
+            <img src="./images/descriptionImg.jpg" alt="" />
+          </div>
+          <div class="description-info">
+            <div class="description-title">
+              <h4>Posh Steps Is Into:</h4>
+            </div>
+            <p style="color: black">
+              Posh Steps is a premium footwear brand dedicated to providing
+              stylish and comfortable shoes for every occasion. Our collection
+              features top-quality materials, modern designs, and excellent
+              craftsmanship. 
+            </p>
+            <div>
+              <button class="btn">Show more</button>
+              <button class="btn">Contact us</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!-- Shop Now -->
+      <section class="discount" id="shop-now">
+        <div class="discount-container">
+          <div>
+            <h2 class="discount-title">
+              Stride With <br />
+              confidence
+            </h2>
+            <p class="discount-description">Get it now, up to 50% off.</p>
+            <button class="btn discount-btn">Shop Now</button>
+          </div>
+    
+          <div>
+            <img src="./images/shoeImg.png" alt="" class="discount__img" />
+          </div>
+        </div>
+      </section>
+    
+      <!-- Services -->
+      <section class="shoe-section" id="services">
+        <div class="section-title">
+          <h2>Our Services</h2>
+        </div>
+    
+        <div class="shoe-cards">
+          <div class="shoe-card">
+            <img src="./images/shoe.jpg" class="shoe-card-img Tomford" alt="Stylish Shoe" />
+          
+            <div class="shoe-info">
+              <h2>Tomford Classic</h2>
+              <p>Elegant and timeless design with a cushioned insole for all-day comfort.</p>
+              <span class="price">GH₵580</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+    
+          <div class="shoe-card">
+            <img
+              src="./images/monkStripe.jpg"
+              class="shoe-card-img monkStripe"
+              alt="Stylish Shoe"
+            />
+            <div class="shoe-info">
+              <h2>Monk Stripe</h2>
+              <p>Sharp and sophisticated, ideal for formal and semi-formal occasions.</p>
+              <span class="price">GH₵550</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+    
+          <div class="shoe-card">
+            <img
+              src="./images/chelseaBoot.jpg"
+              class="shoe-card-img chelseaBoot"
+              alt="Stylish Shoe"
+            />
+            <div class="shoe-info">
+              <h2>Chelsea Boot </h2>
+              <p>Classic ankle boots made with genuine leather, perfect for any stylish wardrobe.</p>
+              <span class="price">GH₵650</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+    
+        <button class="btn-outlined btn-view">View More</button>
+      </section>
+    
+      <footer class="footer section">
+        <div class="footer-container">
+          <h4 class="logo">
+            <a href="#" class="nav-link">Posh Steps</a>
+          </h4>
+    
+          <div class="footer__content">
+            <h3 class="footer__title">Products</h3>
+    
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Chelsea Boots</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Sneakers</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Monk Stripe</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Desert Boots</a>
+              </li>
+            </ul>
+          </div>
+    
+          <div class="footer__content">
+            <h3 class="footer__title">Contact Us</h3>
+    
+            <ul class="footer__links">
+              <li class="contact-link">
+                <a href="mailto:asantea176@gmail.com" class="footer-social"
+                  >Send me an email</a
+                >
+              </li>
+              <li class="contact-link">
+                <a
+                  href="https://wa.me/0206861637"
+                  target="_blank"
+                  class="footer-social"
+                  >WhatsApp Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+    
+        <p class="footer__copy">
           <a
             href="https://www.instagram.com/posh_steps?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+            class="footer__copy-link"
+            >&#169; Posh Steps. All right reserved</a
           >
-            <a href="#shop-now">
-              <button class="btn-outlined">Shop Now</button>
-            </a>
-          </a>
-        </div>
-      </div>
-    </header>
+        </p>
+      </footer>
+       </div>
 
-    <!-- About Us -->
-    <section class="shoe-section" id="about">
-      <div class="section-title">
-        <h2>About Posh Steps</h2>
-      </div>
-      <div class="shoe-description">
-        <div class="description-img">
-          <img src="./images/descriptionImg.jpg" alt="" />
-        </div>
-        <div class="description-info">
-          <div class="description-title">
-            <h4>Posh Steps Is Into:</h4>
-          </div>
-          <p style="color: black">
-            Posh Steps is a premium footwear brand dedicated to providing
-            stylish and comfortable shoes for every occasion. Our collection
-            features top-quality materials, modern designs, and excellent
-            craftsmanship. 
-          </p>
-          <div>
-            <button class="btn">Show more</button>
-            <button class="btn">Contact us</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Shop Now -->
-    <section class="discount" id="shop-now">
-      <div class="discount-container">
-        <div>
-          <h2 class="discount-title">
-            Stride With <br />
-            confidence
-          </h2>
-          <p class="discount-description">Get it now, up to 50% off.</p>
-          <button class="btn discount-btn">Shop Now</button>
-        </div>
-
-        <div>
-          <img src="./images/shoeImg.png" alt="" class="discount__img" />
-        </div>
-      </div>
-    </section>
-
-    <!-- Services -->
-    <section class="shoe-section" id="services">
-      <div class="section-title">
-        <h2>Our Services</h2>
-      </div>
-
-      <div class="shoe-cards">
-        <div class="shoe-card">
-          <img src="./images/shoe.jpg" class="shoe-card-img Tomford" alt="Stylish Shoe" />
-        
-          <div class="shoe-info">
-            <h2>Tomford Classic</h2>
-            <p>Elegant and timeless design with a cushioned insole for all-day comfort.</p>
-            <span class="price">GH₵580</span>
-            <button>Add to Cart</button>
-          </div>
-        </div>
-
-        <div class="shoe-card">
-          <img
-            src="./images/monkStripe.jpg"
-            class="shoe-card-img monkStripe"
-            alt="Stylish Shoe"
-          />
-          <div class="shoe-info">
-            <h2>Monk Stripe</h2>
-            <p>Sharp and sophisticated, ideal for formal and semi-formal occasions.</p>
-            <span class="price">GH₵550</span>
-            <button>Add to Cart</button>
-          </div>
-        </div>
-
-        <div class="shoe-card">
-          <img
-            src="./images/chelseaBoot.jpg"
-            class="shoe-card-img chelseaBoot"
-            alt="Stylish Shoe"
-          />
-          <div class="shoe-info">
-            <h2>Chelsea Boot </h2>
-            <p>Classic ankle boots made with genuine leather, perfect for any stylish wardrobe.</p>
-            <span class="price">GH₵650</span>
-            <button>Add to Cart</button>
-          </div>
-        </div>
-      </div>
-
-      <button class="btn-outlined btn-view">View More</button>
-    </section>
-
-    <footer class="footer section">
-      <div class="footer-container">
-        <h4 class="logo">
-          <a href="#" class="nav-link">Posh Steps</a>
-        </h4>
-
-        <div class="footer__content">
-          <h3 class="footer__title">Products</h3>
-
-          <ul class="footer__links">
-            <li>
-              <a href="#" class="footer__link">Chelsea Boots</a>
-            </li>
-            <li>
-              <a href="#" class="footer__link">Sneakers</a>
-            </li>
-            <li>
-              <a href="#" class="footer__link">Monk Stripe</a>
-            </li>
-            <li>
-              <a href="#" class="footer__link">Desert Boots</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="footer__content">
-          <h3 class="footer__title">Contact Us</h3>
-
-          <ul class="footer__links">
-            <li class="contact-link">
-              <a href="mailto:asantea176@gmail.com" class="footer-social"
-                >Send me an email</a
-              >
-            </li>
-            <li class="contact-link">
-              <a
-                href="https://wa.me/0206861637"
-                target="_blank"
-                class="footer-social"
-                >WhatsApp Us</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <p class="footer__copy">
-        <a
-          href="https://www.instagram.com/posh_steps?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-          target="_blank"
-          class="footer__copy-link"
-          >&#169; Posh Steps. All right reserved</a
-        >
-      </p>
-    </footer>
-  </body>
+    </body>
 </html>
